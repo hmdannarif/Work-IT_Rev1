@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif; 
+    font-style:normal;
+    
+    background-color: #bfc1d3;
+    padding: 20px;
+    color : whitesmoke;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Membuat tinggi body menjadi 100% tinggi layar */
+    background-image: url('../foto/background.jpg');
+    background-size: cover; /* Background akan menutupi seluruh area */
+}
+   
+.box {
+        max-width: 400px;
+        margin: 180px auto;
+        padding: 20px;
+        background-color: transparent;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(255, 255, 255, 0.418);
+        backdrop-filter: blur(8px);
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+a {
+        border: none;
+        /* margin: 100px 2px ; */
+        border-radius: 5px;
+        background: #0455ce;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        color: #ffffff;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #bfc1d3;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border:20px #efefef;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(191, 193, 211, 0); 
+    font-family: Arial, sans-serif;
+    /* background-image: url('../foto/background.jpg'); */
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 20px;
+    /* border-radius: 5px; */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.397);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 25px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.warna-whitesmoke {
+    color: whitesmoke;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+.editprofile-image {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+.editprofile-shape {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ffcc00; /* Warna shape bulat */
+    margin: 20px auto;
+ }
+.editprofile-info {
+    margin-bottom: 20px;
+}
+
+.editprofile-info h2 {
+    margin-bottom: 10px;
+}
+
+.editprofile-info p {
+    margin-bottom: 5px;
+}
+
+.teks-white { 
+    color: white;
+}
+img{
+        width: 100px; /* Sesuaikan lebar gambar sesuai kebutuhan */
+        height: 100px; /* Biarkan tinggi gambar menyesuaikan proporsi aslinya */
+        border-radius: 50%; /* Agar gambar memiliki sudut yang bulat */
+        border: 2px solid #ccc; /* Tambahkan border untuk gambar */
+     
+}

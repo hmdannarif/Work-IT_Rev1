@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../foto/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.418);
+    backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    /* gap: 20px; */
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.lamaran-detail {
+    margin-bottom: 20px;
+}
+
+.detail-item {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.pelamar-foto {
+    max-width: 100px;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.actions form {
+    margin: 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+}
+p{
+    color: #ccc;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+.btn-accept {
+    background-color: #28a745;
+}
+
+.btn-accept:hover {
+    background-color: #218838;
+}
+
+.btn-back {
+    display: block;
+    margin: 20px 0;
+    background-color: #007bff;
+    text-align: center;
+}
+
+.btn-back:hover {
+    background-color: #0056b3;
+}
+

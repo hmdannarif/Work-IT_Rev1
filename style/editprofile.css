@@ -1,0 +1,67 @@
+body {
+
+    font-family: Arial, sans-serif; 
+    font-style:normal;
+    
+    background-color: #bfc1d3;
+    padding: 20px;
+    color : whitesmoke;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Membuat tinggi body menjadi 100% tinggi layar */
+    background-image: url('../foto/background.jpg');
+    background-size: cover; /* Background akan menutupi seluruh area */
+}
+
+.container {
+    max-width: 400px;
+    margin: 180px auto;
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.418);
+    backdrop-filter: blur(8px);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #eaeaea;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #f7f7f7;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #171ee8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #969696;
+}

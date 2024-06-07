@@ -1,0 +1,96 @@
+/* register.css */
+body, html{
+    margin: 0;
+    padding: 0;
+    background-image: url('../foto/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+/* Style the main container */
+.main-w3layouts {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.418);
+}
+.main-w3layouts fieldset{
+    border: none;
+}
+
+/* Style the form heading */
+.main-w3layouts h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Style the form container */
+.main-agileinfo {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+}
+
+/* Style form fields */
+.agileits-top input[type="text"],
+.agileits-top input[type="password"]
+/* .agileits-top input[type="radio"]*/{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.radio{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+/* Style form labels */
+.agileits-top label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* Style submit button */
+.agileits-top input[type="submit"] {
+    background-color: #0455ce;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.agileits-top input[type="submit"]:hover {
+    background-color: #e6e6e640;
+}
+
+/* Style the "Have an account?" link */
+.agileits-top p{
+    color: white;
+}
+.agileits-top p a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.agileits-top p a:hover {
+    color: #0056b3;
+}
